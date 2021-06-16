@@ -6,8 +6,7 @@ fun getStringLength(obj: Any): Int? {
 }
 fun main() {
  fun printLength(obj: Any) {
- println("'$obj' ......您的名字共有 ${getStringLength(obj) ?: "... 錯誤, 這不是
-一個字串"} 個字 ")
+ println("'$obj' ......您的名字共有 ${getStringLength(obj) ?: "... 錯誤, 這不是一個字串"} 個字 ")
  }
  println("請問大名？")
  val name = readLine()
